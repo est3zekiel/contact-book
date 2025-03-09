@@ -18,8 +18,4 @@ public class Contact {
     private String surname;
     private String phone;
 
-    @Lob
-    @Column(columnDefinition = "BYTEA")
-    private byte[] photo;
-
 }
